@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- description -->
+    <meta name="description" content="Portfolio for TANTELY" >
+
+    <!-- fav-icon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <!-- font montserrat pour tous qui sont des titres -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- font serif pour tous qui sont contenus -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
+    <!-- font poppins  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- font awsome pour l'icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- icons pour les competances  -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+    <!-- font pour les menus -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- lien de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" >
+
+
+    <!-- slider slick -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <!-- slick theme pour apparaitre le petit fleche -->
+     <link rel="stylesheet" href="css/slick-theme.css">
+
+     <!-- fancybox pour agrandir l'image si on click dans slider -->
+     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+
+    <!-- animate css  -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+    />
+
+    <!-- annimation aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- link to style css  -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Portfolio</title>
+
+
+</head>
+<body>
+    <!-- burger menu -->
+    <a class="burger-menu visible-xs" href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+    <div class="menu-mobile">
+        <a class="close-menu" href="#"><i class="fa fa-close" aria-hidden="true"></i></a>
+        <ul>
+            <li class="current"><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#contacts">contacts</a></li>
+            <li><a href="#">download cv</a></li>
+        </ul>
+    </div>
+
+    <!-- menu -->
+    <header class="hidden-xs">
+        <nav id="menu">
+            <ul>
+                <li class="current"><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contacts">contacts</a></li>
+                <li><a href="#">download cv</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- section de home -->
+    <section id="home">
+
+        <div class="row contenus">
+            <div class="col-md-7">
+                <!-- partie informations -->
+                <div class="content-info">
+                    <h4>Welcome To My Portfolio !</h4>
+                    <h3>I'm <span>tantely</span></h3>
+                    <h2>Full-Stack Developer And AI Developer</h2>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <!-- partie image -->
+                <div class="image-profile">
+                    <img src="img/tantely.jpg" alt="image de tantely developpeur fullstack et developpeur IA">
+                </div>
+            </div>
+            <div class="col-md-2">
+                <!-- partie icons  -->
+                <div class="contacts">
+                    <a href="https://github.com/TANTELY00" class="git-hub">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/tantelinirina-ravoson-6959a22a0/" class="linkeding">
+                        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </a>
+                    <a href="mailTo:https://www.tanteli.ia.engineer@gmail.com" class="email">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="roll-down animated infinite pulse">
+            <a href="#">
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- section about -->
+    <section id="about">
+        <h1 data-aos="fade-up">about <span>me</span></h1>
+        <div class="row">
+            <div class="col-md-12 profile" data-aos="zoom-in">
+                <p>
+                    Hi , I’m Tantely , I’m a passionate Full-Stack Developer and AI Developer with a strong commitment to creating 
+                    innovative, scalable applications. I believe in the power of technology to solve real-world problems, and I am driven
+                    by the challenge of building intelligent systems that enhance user experiences and streamline business operations.
+                </p>
+            </div>
+            <div class="col-md-6 formation" data-aos="fade-right">
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                <div class="card">
+                    <p>
+                        I hold dual Master’s degrees: 
+                        one in Computer Science from EMIT and another in Artificial Intelligence from ENI, both awarded by the prestigious University of Fianarantsoa. This academic foundation has equipped me with 
+                        advanced technical expertise and a strong problem-solving mindset, 
+                        enabling me to deliver innovative and intelligent solutions for modern
+                        challenges.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 competence" data-aos="fade-left">
+                <i class="fa fa-cog" aria-hidden="true"></i>
+                <div class="card">
+                    <p>
+                        I am a Full-Stack Developer specializing in Java Spring Boot and Angular, delivering scalable and high-performance web applications.In addition, I am an AI Developer with expertise in Machine Learning, Generative AI, and Intelligent Agents or Multi-Agent Systems, creating innovative and intelligent solutions tailored to modern business challenges.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-12 experience" data-aos="fade-up">
+                <i class="fa fa-briefcase" aria-hidden="true"></i>
+                <div class="card">
+                    <p>
+                        My experience includes several impactful internships and diverse academic and personal projects:
+                    </p>
+                    <br>
+                    <p>
+                        . A 6-month internship at ENI, where I developed a virtual trial platform for fashion models using cutting-edge technologies such as Java Spring Boot, Angular, and Artificial Intelligence.
+                    </p>
+                    <p>
+                        . A 3-month internship at Nir'Info Antananarivo, where I created an online training platform leveraging Java Spring Boot and Angular.
+                    </p>
+                    <p>
+                        . A 2-month internship at IST University in Ambositra, where I built a platform for student registration and grade management.
+                    </p>
+                    <br>
+                    <p>
+                        Additionally, I have completed various academic and personal projects, combining technologies like Java Spring Boot, Angular, and Artificial Intelligence. These include generative AI applications (such as prompt engineering), intelligent agents, and innovative solutions that integrate full-stack development with AI capabilities to create smart and efficient systems       
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section skills -->
+    <section id="skills" >
+        <h1 data-aos="fade-up"><span>my</span> skills</h1>
+        <div class="row">
+            <div class="col-md-3" data-aos="fade-right">
+                <h5>font-end</h5>
+                <div class="card">
+                    <div class="icons-front-end">
+                         <i class="devicon-html5-plain-wordmark"></i>
+                         <i class="devicon-css3-plain-wordmark"></i>
+                         <i class="devicon-javascript-plain"></i>
+                         <i class="devicon-jquery-plain-wordmark"></i>
+                         <i class="devicon-bootstrap-plain-wordmark"></i>
+                         <i class="devicon-tailwindcss-original"></i>
+                         <i class="devicon-angular-plain colored"></i>
+                         <i class="devicon-angularmaterial-plain"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" data-aos="fade-up">
+                <h5>back-end</h5>
+                <div class="card">
+                    <div class="icons-back-end">
+                        <i class="devicon-java-plain"></i>
+                        <i class="devicon-spring-original"></i>
+                        <i class="devicon-python-plain-wordmark"></i>
+                        <i class="devicon-django-plain"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" data-aos="fade-up">
+                <h5>a i</h5>
+                <div class="card">
+                    <div class="images-ia">
+                        <div class="ml">
+                            <img src="img/ml.png" alt="Machine learning">
+                            <p>Machine Learning</p>
+                        </div>
+                        <div class="gen">
+                            <img src="img/IAGEN.png" alt="AI Generated">
+                            <p>AI Generated</p>
+                        </div>
+                        <div class="agent">
+                            <img src="img/agent.png" alt="AI Agent">
+                            <p>AI Agent</p>
+                        </div>
+                        <div class="vision">
+                            <img src="img/vision.png" alt="AI Agent">
+                            <p>Computer Vision for web</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" data-aos="fade-left">
+                <h5>tools</h5>
+                <div class="card">
+                    <div class="icons-tools">
+                        <i class="devicon-git-plain"></i>
+                        <i class="devicon-github-original"></i>
+                        <i class="devicon-trello-plain"></i>
+                        <i class="devicon-docker-plain"></i>
+                        <i class="devicon-jenkins-plain"></i>
+                        <i class="devicon-kubernetes-plain"></i>
+                        <i class="devicon-intellij-plain"></i>
+                        <i class="devicon-vscode-plain"></i>
+                        <i class="devicon-jupyter-plain"></i>
+                        <i class="devicon-tensorflow-original"></i>
+                        <i class="devicon-pytorch-original"></i>
+                        <i class="devicon-scikitlearn-plain"></i>
+                        <i class="devicon-keras-plain"></i>
+                        <i class="devicon-opencv-plain"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section services -->
+    <section id="services">
+    <h1 data-aos="fade-up"><span>our</span> services</h1>
+    <div class="row">
+        <div class="col-md-3" data-aos="fade-right">
+            <div class="card">
+                <i class="devicon-angular-plain colored"></i>
+                <p>
+                    Develop a front-end application with Angular 🚀
+                </p>
+            </div>   
+        </div>
+        <div class="col-md-3" data-aos="fade-up">
+            <div class="card">
+                <i class="devicon-spring-original"></i>
+                <p>
+                    Develop a back-end application with java spring boot 🚀 
+                </p>
+            </div> 
+        </div>
+        <div class="col-md-3" data-aos="fade-up">
+            <div class="card">
+                <div class="full-stack-icons">
+                    <i class="devicon-angular-plain colored"></i>
+                    <p>+</p>
+                    <i class="devicon-spring-original"></i>
+                </div>
+                <p>
+                    Develop a full-stack application with Angular and java spring boot 
+                </p>
+            </div> 
+        </div>
+        <div class="col-md-3" data-aos="fade-left">
+            <div class="card">
+                <img src="img/modelIA.jpg" alt="model IA">
+                <p>
+                    Creating and Optimizing AI and Machine Learning Models 🤖
+                </p>
+            </div> 
+        </div>
+        <div class="col-md-3" data-aos="fade-right">
+            <div class="card">
+                <img src="img/modelIA.jpg" alt="model IA">
+                <p>
+                    Create a web application powered by generative AI 🤖💬 
+                </p>
+            </div> 
+        </div>
+        <div class="col-md-3" data-aos="fade-up">
+            <div class="card">
+                <img src="img/modelIA.jpg" alt="model IA">
+                <p>
+                    Next-Gen AI Applications with Smart Agents 👨‍💻🤖 
+                </p>
+            </div> 
+        </div>
+        <div class="col-md-3" data-aos="fade-up">
+            <div class="card">
+                <img src="img/modelIA.jpg" alt="model IA">
+                <p>
+                    Build a Cutting-Edge Computer Vision Web Application 🚀
+                </p>
+            </div> 
+        </div>
+    </div>
+    </section>
+
+    <!-- section projects -->
+    <section id="projects">
+        <h1><span>our</span> projects</h1>
+        <div class="row">
+            <div class="slider">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body" data-fancybox="gallery">
+                            <img src="img/test.jpg" alt="image de test pour les projets">
+                        </div>
+                        <div class="infos">
+                            <div class="visualisation">
+                                <a href="#">
+                                    <i class="devicon-github-original git"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="devicon-cassandra-plain vue"></i>
+                                </a>
+                            </div>
+                            <p class="infos">Developed a virtual try-on platform for clothing using Spring, Angular, Computer Vision, RAG, and AI Agents to enhance the shopping experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body" data-fancybox="gallery">
+                            <img src="img/project2.jpg" alt="image de test pour les projets">
+                        </div>
+                        <div class="infos">
+                            <div class="visualisation">
+                                <a href="#">
+                                    <i class="devicon-github-original git"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="devicon-cassandra-plain vue"></i>
+                                </a>
+                            </div>
+                            <p class="infos">Developed an online training platform using Spring Boot and Angular to deliver seamless and interactive learning experiences.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body" data-fancybox="gallery">
+                            <img src="img/project3.jpg" alt="image de test pour les projets">
+                        </div>
+                        <div class="infos">
+                            <div class="visualisation">
+                                <a href="#">
+                                    <i class="devicon-github-original git"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="devicon-cassandra-plain vue"></i>
+                                </a>
+                            </div>
+                            <p class="infos">Developed an online registration and grade management platform using Spring and Angular to streamline academic administration.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body" data-fancybox="gallery">
+                            <img src="img/project4.jpg" alt="image de test pour les projets">
+                        </div>
+                        <div class="infos">
+                            <div class="visualisation">
+                                <a href="#">
+                                    <i class="devicon-github-original git"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="devicon-cassandra-plain vue"></i>
+                                </a>
+                            </div>
+                            <p class="infos">Developed a cinema management platform using Spring and Angular to optimize ticket booking, scheduling, and customer experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body" data-fancybox="gallery">
+                            <img src="img/project5.jpg" alt="image de test pour les projets">
+                        </div>
+                        <div class="infos">
+                            <div class="visualisation">
+                                <a href="#">
+                                    <i class="devicon-github-original git"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="devicon-cassandra-plain vue"></i>
+                                </a>
+                            </div>
+                            <p class="infos">Developed an AI-powered CV filtering platform using Spring, Angular, and RAG to streamline recruitment and improve candidate selection.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- section contacts -->
+    <footer id="contacts">
+        <h1 data-aos="fade-up"> <span>my</span> contacts</h1>
+        <div class="row">
+            <div class="col-md-6 messages" >
+                <div class="message">
+                    <h6 data-aos="fade-up">send message</h6>
+                    <div class="card" data-aos="fade-right">
+                        <textarea name="send" id="send" cols="30" rows="10"></textarea>
+                        <input type="button" value="send">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h6 data-aos="fade-up">contacts infos</h6>
+                <div class="icons-contacts" data-aos="fade-left">
+                    <div class="github">
+                        <a href="#" class="git-hub">
+                            <i class="fa fa-github" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://github.com/TANTELY00">https://github.com/TANTELY00</a>
+                    </div>
+                    <div class="linkedin">
+                        <a href="#" class="linkeding">
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/tantelinirina-ravoson-6959a22a0/">https://www.linkedin.com/in/tantelinirina-ravoson-6959a22a0/</a>
+                    </div>
+                    <div class="email">
+                        <a href="#" class="email">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </a>
+                        <a href="mailTo:https://www.tanteli.ia.engineer@gmail.com">tanteli.ia.engineer@gmail.com</a>
+                    </div>
+                    <div class="tel">
+                        <a href="#" class="tel">
+                            <i class="fa fa-phone-square" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">+261 34 61 454 97</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6">
+                <p >
+                    <!-- ctl shift u 00A9 -->
+                    ©2025 Tantely
+                </p>
+            </div>
+            <div class="col-xs-6 text-right" >
+                <a  data-toggle="modal" data-target="#modalMentions" href="#">Legal Mentions</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- modal -->
+    <div class="modal fade" id="modalMentions" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header text-center">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h3>Legal Mentions</h3>
+            </div>
+            <div class="modal-body">
+              <p>
+                I’m Tantely , I’m a passionate Full-Stack Developer and AI Developer with a strong commitment to creating 
+                innovative, scalable applications. I believe in the power of technology to solve real-world problems, and I am driven
+                by the challenge of building intelligent systems that enhance user experiences and streamline business operations.
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+  
+</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <!-- fancybox pour le slider "data-fancybox="gallery" -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <!-- navbar -->
+    <script src="js/nav.js" ></script>
+    <!-- annimation aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/portfolio.js"></script>
+
+    <script>AOS.init({
+
+            delay : 100
+            
+        });
+    </script>
+</html>
+
