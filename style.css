@@ -368,95 +368,113 @@ header.fix-width ul{
 #services .row .card .full-stack-icons p{
     font-size: 12px;
     font-weight: bold;
+
 }
 
-/* FIN SERVICES */
 
-/* DEBUT PROJETS */
-#projects{
+
+
+/* DEBUT PROJETS & CERTIFICATIONS */
+#projects, #certifications {
     width: 100%;
-    height: 150vh;
+    height: 100vh;
 }
 
-#projects .row .card img{
-    width: 100%;  /* Remplit toute la largeur du card */
-    height: auto;  /* Garde le ratio */
-    max-height: 247px; /* Évite que l'image soit trop grande */
-    object-fit: cover; /* Recadre bien l’image sans déformation */
+/* Images des cartes */
+#projects .row .card img, 
+#certifications .row .card img {
+    width: 100%;  
+    height: auto;  
+    max-height: 247px; 
+    object-fit: cover; 
     border-radius: 10px;
 }
 
-#projects .row .card{
-    background-color: rgba(255, 255, 255, 0.1);  /* Remplace opacity par un fond semi-transparent */
+/* Style des cartes */
+#projects .row .card, 
+#certifications .row .card {
+    background-color: rgba(255, 255, 255, 0.1);
     margin-top: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: 0.3s ;
+    transition: 0.3s;
     text-align: center;
     overflow: hidden;
 }
 
-#projects .row .card .infos{
+/* Informations sur les projets et certifications */
+#projects .row .card .infos, 
+#certifications .row .card .infos {
     display: flex;
     justify-content: first baseline;
     gap: 20px;
     margin: 0 10px 10px 10px;
+    color: #fff;
+    padding-top: 7px;
 }
 
-#projects .row .card .visualisation {
+/* Visualisation des projets et des certifications */
+#projects .row .card .visualisation, 
+#certifications .row .card .visualisation {
    display: flex;
    flex-direction: column;
    margin-top: 4px;
 }
 
-#projects .row .card .visualisation .git{
+/* Icônes GitHub et Vue */
+#projects .row .card .visualisation .git, 
+#certifications .row .card .visualisation .git {
     color: #fff;
     font-size: 25px;
 }
 
-#projects .row .card .visualisation .git:hover{
+#projects .row .card .visualisation .git:hover, 
+#certifications .row .card .visualisation .git:hover {
     opacity: 0.5;
     transition: 0.4s;
 }
 
-#projects .row .card .visualisation .vue:hover{
+#projects .row .card .visualisation .vue, 
+#certifications .row .card .visualisation .vue {
+    font-size: 35px;
+    color: #fff;
+}
+
+#projects .row .card .visualisation .vue:hover, 
+#certifications .row .card .visualisation .vue:hover {
     opacity: 0.5;
     transition: 0.4s;
 }
 
-#projects .row.slider {
-    display: block !important; /* Désactive flexbox pour que Slick fonctionne */
+/* Désactivation du flexbox pour Slick */
+#projects .row.slider, 
+#certifications .row.slider {
+    display: block !important;
     text-align: center;
+
 }
 
-#projects .row .slider a{
-    /* pour assurer que le lien entour bien l'image */
+#certifications .slider {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+/* Lien entourant les images */
+#projects .row .slider a, 
+#certifications .row .slider a {
     display: block; 
     border: 3px solid transparent;
     overflow: hidden;
 }
 
-
-#projects .row .card .visualisation .vue{
-    font-size: 35px;
-    color: #fff;
-}
-
-#projects .row .card .visualisation a:hover{
-   text-decoration: none;
-}
-
-
-#projects .row .card:hover {
+/* Effet au survol */
+#projects .row .card:hover, 
+#certifications .row .card:hover {
     opacity: 0.8;
     transition: 0.4s;
 }
 
-
-#projects .row .card .infos{
-    color: #fff;
-    padding-top: 7px;
-}
 /* FIN PROJECTS */
 
 /* DEBUT CONSTACTS */
@@ -570,7 +588,7 @@ header.fix-width ul{
 /* Petits écrans (téléphones, moins de 783px) */
 @media screen and (max-width: 783px) {
     /* reset */
-    #menu ,#home ,#about, #skills,#services,#projects,#contacts{
+    #menu ,#home ,#about, #skills,#services,#projects,#contacts,#certifications{
         padding:20px ;
         overflow: hidden;
     }
@@ -672,6 +690,11 @@ header.fix-width ul{
     }
 
     /* projects */
+
+    #certifications .slider {
+        margin-left: 2px;
+        margin-right: 2px;
+    }
     
     #projects {
        height: 100vh;
